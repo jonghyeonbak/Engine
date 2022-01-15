@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.default">
+      <UniqueIdentifier>{14408ab7-2c29-42e4-901f-7ecbfb1f06da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.mainApp">
+      <UniqueIdentifier>{513025a8-474c-4efd-9bb2-7dccacfc19a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.define">
+      <UniqueIdentifier>{4e0e7915-76dd-40b3-85c5-97f9dbbe566b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork.h">
+      <Filter>99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>01.mainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Define.h">
+      <Filter>98.define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameWork.cpp">
+      <Filter>99.default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>01.mainApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FrameWork.ico">
+      <Filter>99.default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>99.default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
